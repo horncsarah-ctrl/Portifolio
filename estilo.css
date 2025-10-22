@@ -1,0 +1,134 @@
+:root {
+    --cor-fundo: #dceaf7;
+    --cor-titulonormal: #4e6d9b;
+    --cor-titulohover: #0f2a51;
+    --cor-paragrafo: rgb(0, 0, 0);
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
+
+h1 {
+    color: var(--cor-titulonormal);
+    font-size: 55px;
+    font-family: "Fascinate", system-ui;
+    transition: 1s;
+}
+
+h1:hover {
+    color: var(--cor-titulohover);
+    transition: 1s;
+}
+
+ul a {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--cor-titulonormal);
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+
+ul a:hover {
+    background-color: var(--cor-titulohover);
+    transition: 1s;
+}
+
+.Tancredo {
+    width: 150px;
+    /*largura*/
+    height: 200px;
+    /*altura*/
+}
+
+.imagens {
+    display: flex;
+    border-radius: 2%;
+}
+
+.foto_texto {
+    width: 25%;
+    margin: 0% 2%;
+    padding: 10px;
+    background-color: var(--cor-fundo);
+}
+
+
+.foto_texto:hover {
+    border-radius: 5px;
+    background-color: #7197C8;
+    text-decoration: none;
+    color: white;
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.90%;
+}
+
+.subtitulocurriculo {
+    color: var(--cor-titulonormal);
+    font-size: 30px;
+    font-family: "Fascinate", system-ui;
+    margin: 1.90%;
+}
+
+.textodocurriculo {
+    color: var(--cor-paragrafo);
+    font-size: 20px;
+    margin: 1.90%;
+    font-family: "Alan Sans", sans-serif;
+}
+
+.titulocurriculo {
+    font-size: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.90%;
+}
+
+.textodosobremim {
+    color: var(--cor-paragrafo);
+    font-size: 20px;
+    margin: 1.90%;
+    font-family: "Alan Sans", sans-serif;
+}
+
+.titulofootercurriculo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagensdosobremim {
+    display: flex;
+    width: 98vw;
+    /*1% da largura da janela do site*/
+    margin: 0% 2%;
+}
+
+.coluna1 {
+    width: 28%;
+}
+
+.coluna2 {
+    width: 28%;
+}
+
+.coluna3 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titulofootersobremim {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: "Alan Sans", sans-serif;
+}
